@@ -1,6 +1,8 @@
 // Enable chromereload by uncommenting this line:
 // import 'chromereload/devonly'
 
-console.log(`'Allo 'Allo! Content script`);
-console.log(`ahahoa`);
-
+window.addEventListener("load", Main);
+function Main() {
+  console.log(`a`);
+  alert(`aa`);
+}
