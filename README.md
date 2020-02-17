@@ -1,14 +1,14 @@
 # twitterNewestTweet
 
-always newest tweet
+Twitterをロードした瞬間に勝手にトップツイートに戻るのが本当に嫌なので、このプラグインを入れたら常に新着ツイートが表に出る（予定）
 
 ## Installation
 
-	$ npm install
+	$ yarn install
 
 ## Usage
 
-Run `$ gulp --watch` and load the `dist`-directory into chrome.
+Run `$ yarn run dev:chrome` and load the `dist`-directory into chrome.
 
 ## Entryfiles (bundles)
 
@@ -21,40 +21,15 @@ There are two kinds of entryfiles that create bundles.
 
 ### Build
 
-    $ gulp
-
-
-| Option         | Description                                                                                                                                           |
-|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `--watch`      | Starts a livereload server and watches all assets. <br>To reload the extension on change include `livereload.js` in your bundle.                      |
-| `--production` | Minifies all assets                                                                                                                                   |
-| `--verbose`    | Log additional data to the console.                                                                                                                   |
-| `--vendor`     | Compile the extension for different vendors (chrome, firefox, opera, edge)  Default: chrome                                                                 |
-| `--sourcemaps` | Force the creation of sourcemaps. Default: !production                                                                                                |
-
+writing now
 
 ### pack
 
-Zips your `dist` directory and saves it in the `packages` directory.
-
-    $ gulp pack --vendor=firefox
+writing now
 
 ### Version
 
-Increments version number of `manifest.json` and `package.json`,
-commits the change to git and adds a git tag.
-
-
-    $ gulp patch      // => 0.0.X
-
-or
-
-    $ gulp feature    // => 0.X.0
-
-or
-
-    $ gulp release    // => X.0.0
-
+writing now
 
 ## Globals
 
